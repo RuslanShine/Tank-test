@@ -60,6 +60,7 @@ public class Tank {
         dir--;
         if (dir == -1) {
             dir = 3;
+            System.out.println();
         }
     }
 }
